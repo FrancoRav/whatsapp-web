@@ -333,6 +333,14 @@
             fill: var(--pink) !important;
             filter: brightness(85%) !important;
         }
+        /* sticker icon */
+        div._1OT67 > div > span > div > div > ul > li:nth-child(2) > button > span > svg > g > circle {
+            fill: var(--blue) !important;
+            filter: brightness(85%) !important;
+        }
+        div._1OT67 > div > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(1) {
+            fill: var(--blue) !important;
+        }
 
 
         /* GENERAL OPTIONS */
