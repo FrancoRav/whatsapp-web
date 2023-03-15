@@ -331,6 +331,7 @@
         }
         #main > footer > div._2lSWV._3cjY2.copyable-area > div > span:nth-child(2) > div > div._2xy_p._1bAtO > div._1OT67 > div > span > div > div > ul > li:nth-child(1) > button > span > svg > g:nth-child(1) > g > path:nth-child(1) {
             fill: var(--pink) !important;
+            filter: brightness(85%) !important;
         }
 
 
