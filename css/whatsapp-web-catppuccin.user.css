@@ -257,6 +257,7 @@
         --primary-strong: var(--text) !important;
         --primary-strongest: var(--text) !important;
         --quoted-message-text: var(--text) !important;
+        --document-meta: var(--subtext1) !important;
         --bubble-meta: var(--text) !important;
         --message-primary: var(--text) !important;
         --outgoing-background: var(--surface0) !important;
