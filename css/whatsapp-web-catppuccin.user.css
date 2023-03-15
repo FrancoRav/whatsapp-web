@@ -241,54 +241,78 @@
     }
 
     .dark {
+        --startup-background: var(--base) !important;
+        /* home page, no chat selected */
+        --intro-background: var(--base) !important;
+        --intro-border: var(--accent) !important;
+        /* general background */
         --app-background: var(--base) !important;
+        /* chat list header */
         --panel-header-background: var(--mantle) !important;
+        /* chat list search bar */
         --search-container-background: var(--base) !important;
         --search-input-container-background: var(--base) !important;
+        --search-input-background: var(--surface1) !important;
+        --search-input-container-background-active: var(--mantle) !important;
+        --icon-search-back: var(--accent) !important;
+        /* chat backgrounds */
         --background-default: var(--base) !important;
+        /* archive icon */
         --icon-bright-highlight: var(--accent) !important;
+        /* archived unread marker */
         --unread-marker-background: var(--accent) !important;
         --unread-timestamp: var(--accent) !important;
+        /* unread voice message */
         --ptt-green: var(--green) !important;
+        /* read voice message */
         --ptt-blue: var(--blue) !important;
+        /* chat background */
         --conversation-panel-background: var(--mantle) !important;
+        /* background for incoming and outgoing messages */
         --incoming-background: var(--crust) !important;
+        --outgoing-background: var(--surface0) !important;
+        /* general text */
         --primary: var(--text) !important;
         --primary-strong: var(--text) !important;
         --primary-strongest: var(--text) !important;
+        /* last message in selected chat */
         --secondary-stronger: var(--subtext1) !important;
+        /* system messages (unread or day messages in chats) */
         --system-message-text: var(--text) !important;
+        /* quoted messages */
         --quoted-message-text: var(--text) !important;
+        /* meta data for documents */
         --document-meta: var(--subtext1) !important;
+        /* links and link previews */
+        --link: var(--rosewater) !important;
         --link-preview: var(--text) !important;
         --link-preview-lighter: var(--subtext1) !important;
         --link-preview-light: var(--subtext0) !important;
+        /* message timestamp */
         --bubble-meta: var(--text) !important;
         --message-primary: var(--text) !important;
-        --outgoing-background: var(--surface0) !important;
         --outgoing-background-deeper: var(--crust) !important;
-        --search-input-background: var(--surface1) !important;
         --compose-input-background: var(--surface1) !important;
         --compose-panel-background: var(--mantle) !important;
         --rich-text-panel-background: var(--mantle) !important;
+        /* read double tick */
         --icon-ack: var(--blue) !important;
+        /* received double tick */
         --bubble-meta-icon: var(--surface2) !important;
+        /* background for video player and image viewer */
         --media-viewer-background: var(--mantle) !important;
         --incoming-background-rgb: white !important;
+        /* dropdown menus */
         --dropdown-background: var(--surface0) !important;
-        --search-input-container-background-active: var(--mantle) !important;
         --incoming-background-deeper: var(--mantle) !important;
+        /* background for active and hover chats in chat list */
         --background-default-active: var(--crust) !important;
         --background-default-hover: var(--mantle) !important;
-        --icon-search-back: var(--accent) !important;
-        --startup-background: var(--base) !important;
-        --intro-background: var(--base) !important;
-        --intro-border: var(--accent) !important;
         --system-message-background: var(--crust) !important;
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
+        /* buttons such as create community */
         --button-primary-background: var(--accent) !important;
-        --link: var(--rosewater) !important;
     }
 
     /* Start page drawing */
