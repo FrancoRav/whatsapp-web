@@ -258,6 +258,9 @@
         --primary-strongest: var(--text) !important;
         --quoted-message-text: var(--text) !important;
         --document-meta: var(--subtext1) !important;
+        --link-preview: var(--text) !important;
+        --link-preview-lighter: var(--subtext1) !important;
+        --link-preview-light: var(--subtext0) !important;
         --bubble-meta: var(--text) !important;
         --message-primary: var(--text) !important;
         --outgoing-background: var(--surface0) !important;
