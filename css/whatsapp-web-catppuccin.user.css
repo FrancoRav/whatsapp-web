@@ -341,6 +341,14 @@
         div._1OT67 > div > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(2) {
             fill: var(--blue) !important;
         }
+        /* camera icon */
+        div._1OT67 > div > span > div > div > ul > li:nth-child(3) > button > span > svg > g:nth-child(1) > g > path:nth-child(1) {
+            fill: var(--red) !important;
+            filter: brightness(85%) !important;
+        }
+        div._1OT67 > div > span > div > div > ul > li:nth-child(3) > button > span > svg > g:nth-child(1) > g > path:nth-child(2) {
+            fill: var(--red) !important;
+        }
 
 
         /* GENERAL OPTIONS */
