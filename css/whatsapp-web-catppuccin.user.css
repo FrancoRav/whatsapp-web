@@ -274,6 +274,8 @@
         /* background for active and hover chats in chat list */
         --background-default-active: var(--crust) !important;
         --background-default-hover: var(--mantle) !important;
+        /* unread chats filter */
+        --icon-high-emphasis: var(--green) !important;
 
         /* CONVERSATION */
 
