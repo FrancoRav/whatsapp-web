@@ -256,6 +256,8 @@
         --primary: var(--text) !important;
         --primary-strong: var(--text) !important;
         --primary-strongest: var(--text) !important;
+        --secondary-stronger: var(--subtext1) !important;
+        --system-message-text: var(--text) !important;
         --quoted-message-text: var(--text) !important;
         --document-meta: var(--subtext1) !important;
         --link-preview: var(--text) !important;
