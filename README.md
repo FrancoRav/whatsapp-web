@@ -38,16 +38,9 @@
 
 #### Stylus
 1. Install the Stylus [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)/[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
-2. Enable CSP Patching from Stylus Settings > Advanced.
-3. Download the them from [here](https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css).
-4. Set the accent color and flavor from Stylus userstyle settings according to your preferences.
-5. Install the theme.
-
-<!-- this section is optional -->
-## 🙋 FAQ
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+2. Download the theme from [here](https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css).
+3. Set the accent color and flavor from Stylus userstyle settings according to your preferences.
+4. Install the theme.
 
 ## 💝 Thanks to
 
