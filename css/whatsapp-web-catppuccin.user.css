@@ -357,7 +357,14 @@
         div._1OT67 > div > span > div > div > ul > li:nth-child(4) > button > span > svg > g:nth-child(1) > g > path:nth-child(2) {
             fill: var(--mauve) !important;
         }
-
+        /* contact icon */
+        div._1OT67 > div > span > div > div > ul > li:nth-child(5) > button > span > svg > g:nth-child(1) > g > g > path:nth-child(1) {
+            fill: var(--sky) !important;
+            filter: brightness(85%) !important;
+        }
+        div._1OT67 > div > span > div > div > ul > li:nth-child(5) > button > span > svg > g:nth-child(1) > g > g > path:nth-child(2) {
+            fill: var(--sky) !important;
+        }
 
         /* GENERAL OPTIONS */
 
