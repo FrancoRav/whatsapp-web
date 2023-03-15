@@ -268,6 +268,8 @@
         --dropdown-background: var(--surface0) !important;
         --search-input-container-background-active: var(--mantle) !important;
         --incoming-background-deeper: var(--mantle) !important;
+        --background-default-active: var(--crust) !important;
+        --background-default-hover: var(--mantle) !important;
     }
 
     /* Status unread dot */
