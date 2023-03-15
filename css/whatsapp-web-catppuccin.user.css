@@ -278,6 +278,7 @@
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
         --button-primary-background: var(--accent) !important;
+        --link: var(--rosewater) !important;
     }
 
     /* Start page drawing */
