@@ -247,6 +247,11 @@
         --intro-border: var(--accent) !important;
         /* general background */
         --app-background: var(--base) !important;
+
+        /* CHAT LIST */
+
+        /* chat list background */
+        --background-default: var(--base) !important;
         /* chat list header */
         --panel-header-background: var(--mantle) !important;
         /* chat list search bar */
@@ -255,8 +260,6 @@
         --search-input-background: var(--surface1) !important;
         --search-input-container-background-active: var(--mantle) !important;
         --icon-search-back: var(--accent) !important;
-        /* chat backgrounds */
-        --background-default: var(--base) !important;
         /* archive icon */
         --icon-bright-highlight: var(--accent) !important;
         /* archived unread marker */
@@ -266,6 +269,14 @@
         --ptt-green: var(--green) !important;
         /* read voice message */
         --ptt-blue: var(--blue) !important;
+        /* last message in selected chat */
+        --secondary-stronger: var(--subtext1) !important;
+        /* background for active and hover chats in chat list */
+        --background-default-active: var(--crust) !important;
+        --background-default-hover: var(--mantle) !important;
+
+        /* CONVERSATION */
+
         /* chat background */
         --conversation-panel-background: var(--mantle) !important;
         /* background for incoming and outgoing messages */
@@ -275,10 +286,16 @@
         --primary: var(--text) !important;
         --primary-strong: var(--text) !important;
         --primary-strongest: var(--text) !important;
-        /* last message in selected chat */
-        --secondary-stronger: var(--subtext1) !important;
+        /* read double tick */
+        --icon-ack: var(--blue) !important;
+        /* received double tick */
+        --bubble-meta-icon: var(--surface2) !important;
+        /* message timestamp */
+        --bubble-meta: var(--text) !important;
+        --message-primary: var(--text) !important;
         /* system messages (unread or day messages in chats) */
         --system-message-text: var(--text) !important;
+        --system-message-background: var(--crust) !important;
         /* quoted messages */
         --quoted-message-text: var(--text) !important;
         /* meta data for documents */
@@ -288,27 +305,26 @@
         --link-preview: var(--text) !important;
         --link-preview-lighter: var(--subtext1) !important;
         --link-preview-light: var(--subtext0) !important;
-        /* message timestamp */
-        --bubble-meta: var(--text) !important;
-        --message-primary: var(--text) !important;
+        /* background for quoted incoming and outgoing messages */
         --outgoing-background-deeper: var(--crust) !important;
+        --incoming-background-deeper: var(--mantle) !important;
+        /* type a message bar and background */
         --compose-input-background: var(--surface1) !important;
         --compose-panel-background: var(--mantle) !important;
         --rich-text-panel-background: var(--mantle) !important;
-        /* read double tick */
-        --icon-ack: var(--blue) !important;
-        /* received double tick */
-        --bubble-meta-icon: var(--surface2) !important;
         /* background for video player and image viewer */
         --media-viewer-background: var(--mantle) !important;
-        --incoming-background-rgb: white !important;
+        /* arrow icon in messages */
+        --incoming-background-rgb: #ff0000ff !important;
+
+        /* GENERAL OPTIONS */
+
         /* dropdown menus */
         --dropdown-background: var(--surface0) !important;
-        --incoming-background-deeper: var(--mantle) !important;
-        /* background for active and hover chats in chat list */
-        --background-default-active: var(--crust) !important;
-        --background-default-hover: var(--mantle) !important;
-        --system-message-background: var(--crust) !important;
+
+        /* OTHER SECTIONS */
+
+        /* communities, new chat, other panes */ 
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
         /* buttons such as create community */
@@ -329,7 +345,7 @@
         fill: var(--accent) !important;
     }
 
-    /* site background 
+    /* site background
     div.app-wrapper-web {
         background: var(--base) !important;
     }*/
@@ -337,25 +353,25 @@
     div.two {
         border: 1px solid var(--surface1) !important;
     } */
-    /* chat background 
+    /* chat background
     div.zaKsw {
         background-color: var(--base) !important;
     } */
-    /* chat-list header 
+    /* chat-list header
     header[data-testid="chatlist-header"] {
         background-color: var(--crust) !important;
         border-bottom: 1px solid var(--surface1) !important;
     } */
-    /* search-bar background 
+    /* search-bar background
     div[id="side"] > div > div {
         background: var(--base) !important;
         border-bottom: 1px solid var(--surface1) !important;
     } */
-    /* chat-list 
+    /* chat-list
     div[id="pane-side"] {
         background-color: var(--base) !important;
     } */
-    /* chat items 
+    /* chat items
     #pane-side > div:nth-child(3) > div > div > div > div > div > div {
         background-color: var(--base) !important;
     } */
