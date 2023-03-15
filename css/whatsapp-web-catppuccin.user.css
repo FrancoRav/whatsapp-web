@@ -271,6 +271,7 @@
         --background-default-active: var(--crust) !important;
         --background-default-hover: var(--mantle) !important;
         --icon-search-back: var(--accent) !important;
+        --startup-background: var(--base) !important;
     }
 
     /* Status unread dot */
