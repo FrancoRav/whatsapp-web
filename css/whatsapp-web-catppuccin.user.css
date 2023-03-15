@@ -254,6 +254,8 @@
         --background-default: var(--base) !important;
         /* chat list header */
         --panel-header-background: var(--mantle) !important;
+        /* icons */
+        --panel-header-icon: var(--text) !important;
         /* chat list search bar */
         --search-container-background: var(--base) !important;
         --search-input-container-background: var(--base) !important;
@@ -288,7 +290,7 @@
         /* read double tick */
         --icon-ack: var(--blue) !important;
         /* received double tick */
-        --bubble-meta-icon: var(--surface2) !important;
+        --bubble-meta-icon: var(--subtext0) !important;
         /* message timestamp */
         --bubble-meta: var(--text) !important;
         --message-primary: var(--text) !important;
