@@ -273,6 +273,16 @@
         --icon-search-back: var(--accent) !important;
         --startup-background: var(--base) !important;
         --intro-background: var(--base) !important;
+        --intro-border: var(--accent) !important;
+        --system-message-background: var(--crust) !important;
+        --panel-background-colored: var(--mantle) !important;
+        --drawer-section-background: var(--base) !important;
+        --button-primary-background: var(--accent) !important;
+    }
+
+    /* Start page drawing */
+    #app > div > div > div._2Ts6i._2xAQV > div > div > div.WM0_u > span > svg > path:nth-child(1) {
+        fill: var(--surface2) !important;
     }
 
     /* Status unread dot */
