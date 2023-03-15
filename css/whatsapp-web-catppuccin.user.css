@@ -254,6 +254,7 @@
         --conversation-panel-background: var(--mantle) !important;
         --incoming-background: var(--crust) !important;
         --primary: var(--text) !important;
+        --primary-strong: var(--text) !important;
         --message-primary: var(--text) !important;
         --outgoing-background: var(--surface0) !important;
         --outgoing-background-deeper: var(--crust) !important;
