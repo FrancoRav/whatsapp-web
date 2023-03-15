@@ -270,10 +270,15 @@
         --incoming-background-deeper: var(--mantle) !important;
         --background-default-active: var(--crust) !important;
         --background-default-hover: var(--mantle) !important;
+        --icon-search-back: var(--accent) !important;
     }
 
     /* Status unread dot */
     #df9d3429-f0ef-48b5-b5eb-f9d27b2deba6 > path:nth-child(2) {
+        fill: var(--accent) !important;
+    }
+
+    #side > div._3gYev > div > div > button > div._3xdht._1ZD3q > span > svg > path {
         fill: var(--accent) !important;
     }
 
