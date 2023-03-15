@@ -333,6 +333,10 @@
             fill: var(--pink) !important;
             filter: brightness(85%) !important;
         }
+        div._1OT67 > div > span > div > div > ul > li:nth-child(1) > button > span > svg > g:nth-child(1) > g > rect {
+            fill: var(--pink) !important;
+            filter: brightness(70%) !important;
+        }
         /* sticker icon */
         div._1OT67 > div > span > div > div > ul > li:nth-child(2) > button > span > svg > g > circle {
             fill: var(--blue) !important;
@@ -348,6 +352,10 @@
         }
         div._1OT67 > div > span > div > div > ul > li:nth-child(3) > button > span > svg > g:nth-child(1) > g > path:nth-child(2) {
             fill: var(--red) !important;
+        }
+        div._1OT67 > div > span > div > div > ul > li:nth-child(3) > button > span > svg > g:nth-child(1) > g > rect {
+            fill: var(red) !important;
+            filter: brightness(85%) !important;
         }
         /* document icon */
         div._1OT67 > div > span > div > div > ul > li:nth-child(4) > button > span > svg > g:nth-child(1) > g > path:nth-child(1) {
