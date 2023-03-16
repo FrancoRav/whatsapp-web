@@ -297,8 +297,6 @@
         /* system messages (unread or day messages in chats) */
         --system-message-text: var(--text) !important;
         --system-message-background: var(--crust) !important;
-        /* quoted messages */
-        --quoted-message-text: var(--text) !important;
         /* meta data for documents */
         --document-meta: var(--subtext1) !important;
         /* links and link previews */
@@ -306,11 +304,93 @@
         --link-preview: var(--text) !important;
         --link-preview-lighter: var(--subtext1) !important;
         --link-preview-light: var(--subtext0) !important;
+        /* arrow icon in messages */
+        --incoming-background-rgb: #ff0000ff !important;
+        /* QUOTED MESSAGES */
+        /* quoted messages */
+        --quoted-message-text: var(--text) !important;
         /* background for quoted incoming and outgoing messages */
         --outgoing-background-deeper: var(--crust) !important;
         --incoming-background-deeper: var(--mantle) !important;
-        /* arrow icon in messages */
-        --incoming-background-rgb: #ff0000ff !important;
+        /* quote colors */
+        .bg-color-1 {
+            background-color: var(--green) !important;
+        }
+        .color-1 {
+            color: var(--green) !important;
+        }
+        .bg-color-2 {
+            background-color: var(--blue) !important;
+        }
+        .color-2 {
+            color: var(--blue) !important;
+        }
+        .bg-color-3 {
+            background-color: var(--pink) !important;
+        }
+        .color-3 {
+            color: var(--pink) !important;
+        }
+        .bg-color-4 {
+            background-color: var(--sapphire) !important;
+        }
+        .color-4 {
+            color: var(--sapphire) !important;
+        }
+        .bg-color-5 {
+            background-color: var(--peach) !important;
+        }
+        .color-5 {
+            color: var(--peach) !important;
+        }
+        .bg-color-6 {
+            background-color: var(--sky) !important;
+        }
+        .color-6 {
+            color: var(--sky) !important;
+        }
+        .bg-color-8 {
+            background-color: var(--teal) !important;
+        }
+        .color-8 {
+            color: var(--teal) !important;
+        }
+        .bg-color-9 {
+            background-color: var(--lavender) !important;
+        }
+        .color-9 {
+            color: var(--lavender) !important;
+        }
+        .bg-color-10 {
+            background-color: var(--red) !important;
+        }
+        .color-10 {
+            color: var(--red) !important;
+        }
+        .bg-color-11 {
+            background-color: var(--mauve) !important;
+        }
+        .color-11 {
+            color: var(--mauve) !important;
+        }
+        .bg-color-12 {
+            background-color: var(--flamingo) !important;
+        }
+        .color-12 {
+            color: var(--flamingo) !important;
+        }
+        .bg-color-13 {
+            background-color: var(--rosewater) !important;
+        }
+        .color-13 {
+            color: var(--rosewater) !important;
+        }
+        .bg-color-15 {
+            background-color: var(--maroon) !important;
+        }
+        .color-15 {
+            color: var(--maroon) !important;
+        }
         /* general text */
         --primary: var(--text) !important;
         --primary-strong: var(--text) !important;
