@@ -362,6 +362,12 @@
         .color-6 {
             color: var(--sky) !important;
         }
+        .bg-color-7 {
+            background-color: var(--yellow) !important;
+        }
+        .color-7 {
+            color: var(--yellow) !important;
+        }
         .bg-color-8 {
             background-color: var(--teal) !important;
         }
@@ -398,11 +404,23 @@
         .color-13 {
             color: var(--rosewater) !important;
         }
+        .bg-color-14 {
+            background-color: var(--pink) !important;
+        }
+        .color-14 {
+            color: var(--pink) !important;
+        }
         .bg-color-15 {
             background-color: var(--maroon) !important;
         }
         .color-15 {
             color: var(--maroon) !important;
+        }
+        .bg-color-16 {
+            background-color: var(--teal) !important;
+        }
+        .color-16 {
+            color: var(--teal) !important;
         }
         /* general text */
         --primary: var(--text) !important;
