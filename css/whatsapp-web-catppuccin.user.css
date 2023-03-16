@@ -251,8 +251,9 @@
 
         /* startup progress */
         --progress-primary: var(--accent) !important;
-        --progress-background: var(--base) !important;
+        --progress-background: var(--surface1) !important;
         --startup-background: var(--base) !important;
+        --startup-background-rgb: var(--base) !important; /* doesn't work as it should */
         /* home page, no chat selected */
         --intro-background: var(--base) !important;
         --intro-border: var(--accent) !important;
