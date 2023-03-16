@@ -241,6 +241,13 @@
     }
 
     .dark {
+        /* STATUS PAGE */
+        --status-background: var(--base) !important;
+        .bfsx6evv {
+            background-color: var(--mantle) !important;
+        }
+
+        --modal-backdrop-solid: var(--base) !important;
         --startup-background: var(--base) !important;
         /* home page, no chat selected */
         --intro-background: var(--base) !important;
