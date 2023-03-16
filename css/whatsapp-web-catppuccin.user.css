@@ -311,7 +311,8 @@
         --system-message-background: var(--crust) !important;
         /* meta data for documents */
         --document-meta: var(--subtext1) !important;
-        /* links and link previews */
+        /* mentions, links and link previews */
+        --mention-at-symbol: var(--rosewater) !important;
         --link: var(--rosewater) !important;
         --link-preview: var(--text) !important;
         --link-preview-lighter: var(--subtext1) !important;
