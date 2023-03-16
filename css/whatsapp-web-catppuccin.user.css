@@ -248,6 +248,10 @@
         }
 
         --modal-backdrop-solid: var(--base) !important;
+
+        /* startup progress */
+        --progress-primary: var(--accent) !important;
+        --progress-background: var(--base) !important;
         --startup-background: var(--base) !important;
         /* home page, no chat selected */
         --intro-background: var(--base) !important;
