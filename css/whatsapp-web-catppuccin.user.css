@@ -64,6 +64,7 @@
             --crust: #dce0e8;
 
             /* non-standard colors */
+            --base-rgb: rgb(239, 241, 245);
             --surface1Transparent: #bcc0ccbd;
             --mist: #dce0e8bd;
         }
@@ -96,6 +97,7 @@
             --crust: #232634;
 
             /* non-standard colors */
+            --base-rgb: rgb(48, 52, 70);
             --surface1Transparent: #51576dbd;
             --mist: #232634bd;
         }
@@ -128,6 +130,7 @@
             --crust: #181926;
 
             /* non-standard colors */
+            --base-rgb: rgb(36, 39, 58);
             --surface1Transparent: #494d64bd;
             --mist: #181926bd;
         }
@@ -160,6 +163,7 @@
             --crust: #11111b;
 
             /* non-standard colors */
+            --base-rgb: rgb(30, 30, 46);
             --surface1Transparent: #45475abd;
             --mist: #11111bbd;
         }
@@ -192,6 +196,7 @@
             --crust: #000000;
 
             /* non-standard colors */
+            --base-rgb: rgb(2, 2, 2);
             --surface1Transparent: #45475abd;
             --mist: #000000bd;
         }
@@ -253,7 +258,7 @@
         --progress-primary: var(--accent) !important;
         --progress-background: var(--surface1) !important;
         --startup-background: var(--base) !important;
-        --startup-background-rgb: var(--base) !important; /* doesn't work as it should */
+        --startup-background-rgb: var(--base-rgb) !important;
         /* home page, no chat selected */
         --intro-background: var(--base) !important;
         --intro-border: var(--accent) !important;
