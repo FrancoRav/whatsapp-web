@@ -437,6 +437,7 @@
         --primary-strong: var(--text) !important;
         --primary-stronger: var(--text) !important;
         --primary-strongest: var(--text) !important;
+        --secondary: var(--subtext0) !important;
         /* background for video player and image viewer */
         --media-viewer-background: var(--mantle) !important;
         /* background for media editor */
