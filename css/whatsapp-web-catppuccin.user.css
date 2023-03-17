@@ -273,6 +273,8 @@
         --panel-header-background: var(--mantle) !important;
         /* icons */
         --panel-header-icon: var(--text) !important;
+        /* loading messages warning */
+        --butterbar-green-nux-background: var(--mantle) !important;
         /* chat list search bar */
         --search-container-background: var(--base) !important;
         --search-input-container-background: var(--base) !important;
@@ -316,7 +318,7 @@
         --system-message-background: var(--crust) !important;
         /* unread system message background */
         --unread-background: var(--crust) !important;
-        --unread-bar-background: var(--mantle) !important;
+        --unread-bar-background: var(--surace1) !important;
         /* meta data for documents */
         --document-meta: var(--subtext1) !important;
         /* mentions, links and link previews */
