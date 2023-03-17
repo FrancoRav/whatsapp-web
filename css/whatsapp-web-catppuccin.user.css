@@ -315,7 +315,8 @@
         --system-message-text: var(--text) !important;
         --system-message-background: var(--crust) !important;
         /* unread system message background */
-        --unread-background: var(--mantle) !important;
+        --unread-background: var(--crust) !important;
+        --unread-bar-background: var(--mantle) !important;
         /* meta data for documents */
         --document-meta: var(--subtext1) !important;
         /* mentions, links and link previews */
@@ -432,6 +433,7 @@
         /* general text */
         --primary: var(--text) !important;
         --primary-strong: var(--text) !important;
+        --primary-stronger: var(--text) !important;
         --primary-strongest: var(--text) !important;
         /* background for video player and image viewer */
         --media-viewer-background: var(--mantle) !important;
