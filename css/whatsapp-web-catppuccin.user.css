@@ -282,6 +282,9 @@
         --panel-header-background: var(--mantle) !important;
         /* icons */
         --panel-header-icon: var(--text) !important;
+        /* other warnings (notifications) */
+        --butterbar-default-background: var(--mantle) !important;
+        --butterbar-notification-icon: var(--sky) !important;
         /* loading messages warning */
         --butterbar-green-nux-background: var(--mantle) !important;
         /* update available warning */
