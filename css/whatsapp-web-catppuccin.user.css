@@ -293,7 +293,7 @@
         /* chat list search bar */
         --search-container-background: var(--base) !important;
         --search-input-container-background: var(--base) !important;
-        --search-input-background: var(--surface1) !important;
+        --search-input-background: var(--surface0) !important;
         --search-input-container-background-active: var(--mantle) !important;
         --icon-search-back: var(--accent) !important;
         /* archive icon */
