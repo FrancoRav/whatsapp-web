@@ -64,6 +64,7 @@
             --crust: #dce0e8;
 
             /* non-standard colors */
+            --text-rgb: 76, 79, 105;
             --base-rgb: 239, 241, 245;
             --surface1Transparent: #bcc0ccbd;
             --mist: #dce0e8bd;
@@ -97,6 +98,7 @@
             --crust: #232634;
 
             /* non-standard colors */
+            --text-rgb: 198, 208, 245;
             --base-rgb: 48, 52, 70;
             --surface1Transparent: #51576dbd;
             --mist: #232634bd;
@@ -130,6 +132,7 @@
             --crust: #181926;
 
             /* non-standard colors */
+            --text-rgb: 202, 211, 245;
             --base-rgb: 36, 39, 58;
             --surface1Transparent: #494d64bd;
             --mist: #181926bd;
@@ -163,6 +166,7 @@
             --crust: #11111b;
 
             /* non-standard colors */
+            --text-rgb: 205, 214, 244;
             --base-rgb: 30, 30, 46;
             --surface1Transparent: #45475abd;
             --mist: #11111bbd;
@@ -196,6 +200,7 @@
             --crust: #000000;
 
             /* non-standard colors */
+            --text-rgb: 205, 214, 244;
             --base-rgb: 2, 2, 2,;
             --surface1Transparent: #45475abd;
             --mist: #000000bd;
