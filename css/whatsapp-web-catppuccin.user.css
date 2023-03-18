@@ -252,10 +252,7 @@
 
     .dark {
         .landing-wrapper-before {
-            background-color: var(--green) !important;
-        }
-        .landing-window {
-            background-color: var(--mantle) !important;
+            background-color: var(--accent) !important;
         }
 
         /* STATUS PAGE */
