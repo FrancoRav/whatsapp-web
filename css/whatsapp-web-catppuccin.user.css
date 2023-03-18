@@ -284,6 +284,9 @@
         --panel-header-icon: var(--text) !important;
         /* loading messages warning */
         --butterbar-green-nux-background: var(--mantle) !important;
+        /* update available warning */
+        --butterbar-update-background: var(--mantle) !important;
+        --butterbar-update-icon: var(--accent) !important;
         /* chat list search bar */
         --search-container-background: var(--base) !important;
         --search-input-container-background: var(--base) !important;
