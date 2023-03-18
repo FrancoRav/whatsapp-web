@@ -251,6 +251,13 @@
     }
 
     .dark {
+        .landing-wrapper-before {
+            background-color: var(--green) !important;
+        }
+        .landing-window {
+            background-color: var(--mantle) !important;
+        }
+
         /* STATUS PAGE */
         --status-background: var(--base) !important;
         .bfsx6evv {
