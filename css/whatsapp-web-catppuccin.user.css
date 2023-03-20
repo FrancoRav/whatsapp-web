@@ -305,6 +305,8 @@
         --ptt-green: var(--green) !important;
         /* read voice message */
         --ptt-blue: var(--blue) !important;
+        /* pinned chat icon */
+        --icon-pinned: var(--accent) !important;
         /* last message in selected chat */
         --secondary-stronger: var(--subtext1) !important;
         /* background for active and hover chats in chat list */
