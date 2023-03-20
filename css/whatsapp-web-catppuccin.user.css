@@ -301,6 +301,8 @@
         /* archived unread marker */
         --unread-marker-background: var(--accent) !important;
         --unread-timestamp: var(--accent) !important;
+        /* archived chats header */
+        --archived-chat-persistent-header-background: var(--crust) !important;
         /* unread voice message */
         --ptt-green: var(--green) !important;
         /* read voice message */
