@@ -263,6 +263,9 @@
 
         --modal-backdrop-solid: var(--base) !important;
 
+        /* join group pop up */
+        --modal-background: var(--base) !important;
+
         /* startup progress */
         --progress-primary: var(--accent) !important;
         --progress-background: var(--surface1) !important;
