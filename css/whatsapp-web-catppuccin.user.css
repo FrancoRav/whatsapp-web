@@ -539,6 +539,8 @@
         /* communities, new chat, other panes */ 
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
+        /* title and icon for drawers */
+        --drawer-header-title: var(--text) !important;
         /* buttons such as create community */
         --button-primary-background: var(--accent) !important;
     }
