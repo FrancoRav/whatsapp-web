@@ -465,7 +465,10 @@
         --compose-input-background: var(--surface1) !important;
         --compose-panel-background: var(--mantle) !important;
         --rich-text-panel-background: var(--mantle) !important;
-        --popup-panel-background: var(--surface0) !important; /* quoted message in compose. Use Surface 0 for contrast, anything brighter doesn't pass AAA */
+        /* quoted message in compose */
+        --popup-panel-background: var(--surface0) !important; /* use Surface 0 for contrast, other colors don't pass AAA */
+        /* mention list item background */
+        --compose-panel-background-hover: var(--surface1) !important;
         /* compose bar icons */
         --icon: var(--accent) !important;
         /* ATTACH ICONS */
