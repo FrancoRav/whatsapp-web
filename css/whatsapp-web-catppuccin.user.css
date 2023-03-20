@@ -466,7 +466,8 @@
         --panel-background-deeper: var(--mantle) !important;
         /* COMPOSE BAR */
         /* type a message bar and background */
-        --compose-input-background: var(--surface1) !important;
+        --compose-input-background: var(--surface0) !important;
+        --compose-input-border: var(--surface1) !important;
         --compose-panel-background: var(--mantle) !important;
         --rich-text-panel-background: var(--mantle) !important;
         /* quoted message in compose */
