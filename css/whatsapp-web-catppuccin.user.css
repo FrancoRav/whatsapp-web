@@ -319,6 +319,8 @@
         --background-default-hover: var(--mantle) !important;
         /* unread chats filter */
         --icon-high-emphasis: var(--green) !important;
+        /* voice message playing */
+        --ptt-ooc-background: var(--mantle) !important;
 
         /* CONVERSATION */
 
