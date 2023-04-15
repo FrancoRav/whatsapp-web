@@ -542,7 +542,7 @@
 
         /* OTHER SECTIONS */
 
-        /* communities, new chat, other panes */ 
+        /* communities, new chat, other panes */
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
         /* title and icon for drawers */
@@ -564,35 +564,4 @@
     #side > div._3gYev > div > div > button > div._3xdht._1ZD3q > span > svg > path {
         fill: var(--accent) !important;
     }
-
-    /* site background
-    div.app-wrapper-web {
-        background: var(--base) !important;
-    }*/
-    /* separate chat box from background
-    div.two {
-        border: 1px solid var(--surface1) !important;
-    } */
-    /* chat background
-    div.zaKsw {
-        background-color: var(--base) !important;
-    } */
-    /* chat-list header
-    header[data-testid="chatlist-header"] {
-        background-color: var(--crust) !important;
-        border-bottom: 1px solid var(--surface1) !important;
-    } */
-    /* search-bar background
-    div[id="side"] > div > div {
-        background: var(--base) !important;
-        border-bottom: 1px solid var(--surface1) !important;
-    } */
-    /* chat-list
-    div[id="pane-side"] {
-        background-color: var(--base) !important;
-    } */
-    /* chat items
-    #pane-side > div:nth-child(3) > div > div > div > div > div > div {
-        background-color: var(--base) !important;
-    } */
 }
