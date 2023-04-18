@@ -475,6 +475,10 @@
         /* Media gallery */
         --drawer-gallery-background: var(--crust) !important;
 
+        /* EMOJI AND STICKERS */
+        --panel-input-background: var(--surface0) !important;
+        --sticker-button-background: var(--surface1) !important;
+
         /* MEDIA EDITOR */
         /* background for media editor */
         --panel-background-deeper: var(--mantle) !important;
