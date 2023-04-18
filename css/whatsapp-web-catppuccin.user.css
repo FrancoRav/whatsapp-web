@@ -467,6 +467,13 @@
         --typing: var(--green) !important;
         /* background for video player and image viewer */
         --media-viewer-background: var(--mantle) !important;
+        /* not loaded media */
+        --media-gallery-thumb-background: var(--crust) !important;
+
+        /* Group info/Contact info */
+        --drawer-background-deep: var(--crust) !important;
+        /* Media gallery */
+        --drawer-gallery-background: var(--crust) !important;
 
         /* MEDIA EDITOR */
         /* background for media editor */
