@@ -472,6 +472,11 @@
 
         /* Group info/Contact info */
         --drawer-background-deep: var(--crust) !important;
+        /* Group admin badge background */
+        --chat-marker-background: var(--mantle) !important;
+        --chat-marker-border: var(--mantle) !important;
+        /* Group admin badge foreground */
+        --chat-marker: var(--subtext0) !important;
         /* Media gallery */
         --drawer-gallery-background: var(--crust) !important;
 
