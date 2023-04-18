@@ -337,6 +337,8 @@
         /* message timestamp */
         --bubble-meta: var(--text) !important;
         --message-primary: var(--text) !important;
+        /* audio duration */
+        --audio-progress-metadata: var(--subtext0) !important;
         /* system messages (unread or day messages in chats) */
         --system-message-text: var(--text) !important;
         --system-message-background: var(--crust) !important;
