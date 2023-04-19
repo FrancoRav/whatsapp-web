@@ -64,6 +64,7 @@
             --crust: #dce0e8;
 
             /* non-standard colors */
+            --mantle-backdrop: rgba(220, 224, 232, 0.85);
             --text-rgb: 76, 79, 105;
             --base-rgb: 239, 241, 245;
             --surface1Transparent: #bcc0ccbd;
@@ -98,6 +99,7 @@
             --crust: #232634;
 
             /* non-standard colors */
+            --mantle-backdrop: rgba(41, 44, 60, 0.85);
             --text-rgb: 198, 208, 245;
             --base-rgb: 48, 52, 70;
             --surface1Transparent: #51576dbd;
@@ -132,6 +134,7 @@
             --crust: #181926;
 
             /* non-standard colors */
+            --mantle-backdrop: rgba(30, 32, 48, 0.85);
             --text-rgb: 202, 211, 245;
             --base-rgb: 36, 39, 58;
             --surface1Transparent: #494d64bd;
@@ -166,6 +169,7 @@
             --crust: #11111b;
 
             /* non-standard colors */
+            --mantle-backdrop: rgba(24, 24, 37, 0.85);
             --text-rgb: 205, 214, 244;
             --base-rgb: 30, 30, 46;
             --surface1Transparent: #45475abd;
@@ -200,6 +204,7 @@
             --crust: #000000;
 
             /* non-standard colors */
+            --mantle-backdrop: rgba(1, 1, 1, 0.85);
             --text-rgb: 205, 214, 244;
             --base-rgb: 2, 2, 2,;
             --surface1Transparent: #45475abd;
@@ -487,6 +492,10 @@
         /* EMOJI AND STICKERS */
         --panel-input-background: var(--surface0) !important;
         --sticker-button-background: var(--surface1) !important;
+
+        /* Forward message popup */
+        --panel-background-colored-deeper: var(--crust) !important;
+        --modal-backdrop: var(--mantle-backdrop) !important;
 
         /* MEDIA EDITOR */
         /* background for media editor */
