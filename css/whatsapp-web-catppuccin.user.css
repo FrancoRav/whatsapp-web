@@ -480,6 +480,7 @@
         /* Group info/Contact info */
         --photopicker-overlay-background: var(--mantle-backdrop) !important;
         --photopicker-overlay-background-rgb: var(--base-rgb) !important;
+        --media-viewer-background-rgb: var(--base-rgb) !important;
         --drawer-background-deep: var(--crust) !important;
         /* Group info thumbnails border */
         --chat-info-drawer-thumb-background: var(--surface2) !important;
