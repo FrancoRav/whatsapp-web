@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Web Catppuccin
 @namespace      github.com/FrancoRav/whatsapp-web
-@version        0.1.26
+@version        0.1.27
 @description    Soothing pastel theme for WhatsApp Web.
 @author         francorav
 @updateURL      https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css
@@ -576,6 +576,11 @@
         div._1OT67 > div > span > div > div > ul > li:nth-child(5) > button > span > svg > g:nth-child(1) > g > g > path:nth-child(2) {
             fill: var(--sky) !important;
         }
+        /* VOICE MESSAGE SENDING */
+        --ptt-draft-button-send: var(--accent) !important;
+        --ptt-draft-waveform-background: var(--base) !important;
+        --ptt-draft-button-stop: var(--red) !important;
+        --ptt-draft-button-stop-hover: var(--maroon) !important;
 
         /* GENERAL OPTIONS */
 
@@ -589,10 +594,13 @@
         /* communities, new chat, other panes */
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
+        /* new chat icons */
+        --round-icon-background: var(--green) !important;
         /* title and icon for drawers */
         --drawer-header-title: var(--text) !important;
         /* buttons such as create community */
         --button-primary-background: var(--accent) !important;
+        --button-primary-background-hover: var(--green) !important;
     }
 
     /* Start page drawing */
