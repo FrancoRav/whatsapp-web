@@ -584,6 +584,8 @@
 
         /* OTHER SECTIONS */
 
+        /* profile background */
+        --drawer-background: var(--base) !important;
         /* communities, new chat, other panes */
         --panel-background-colored: var(--mantle) !important;
         --drawer-section-background: var(--base) !important;
