@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Web Catppuccin
 @namespace      github.com/FrancoRav/whatsapp-web
-@version        0.1.32
+@version        0.1.33
 @description    Soothing pastel theme for WhatsApp Web.
 @author         francorav
 @updateURL      https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css
@@ -64,6 +64,7 @@
             --crust: #dce0e8;
 
             /* non-standard colors */
+            --mantle-rgb: rgb(230, 233, 239);
             --mantle-backdrop: rgba(220, 224, 232, 0.85);
             --text-rgb: 76, 79, 105;
             --base-rgb: 239, 241, 245;
@@ -99,6 +100,7 @@
             --crust: #232634;
 
             /* non-standard colors */
+            --mantle-rgb: rgb(41, 44, 60);
             --mantle-backdrop: rgba(41, 44, 60, 0.85);
             --text-rgb: 198, 208, 245;
             --base-rgb: 48, 52, 70;
@@ -134,6 +136,7 @@
             --crust: #181926;
 
             /* non-standard colors */
+            --mantle-rgb: rgb(30, 32, 48);
             --mantle-backdrop: rgba(30, 32, 48, 0.85);
             --text-rgb: 202, 211, 245;
             --base-rgb: 36, 39, 58;
@@ -169,6 +172,7 @@
             --crust: #11111b;
 
             /* non-standard colors */
+            --mantle-rgb: rgb(24, 24, 37);
             --mantle-backdrop: rgba(24, 24, 37, 0.85);
             --text-rgb: 205, 214, 244;
             --base-rgb: 30, 30, 46;
@@ -204,6 +208,7 @@
             --crust: #000000;
 
             /* non-standard colors */
+            --mantle-rgb: rgb(1, 1, 1);
             --mantle-backdrop: rgba(1, 1, 1, 0.85);
             --text-rgb: 205, 214, 244;
             --base-rgb: 2, 2, 2,;
@@ -523,6 +528,9 @@
         --compose-input-border: var(--surface1) !important;
         --compose-panel-background: var(--mantle) !important;
         --rich-text-panel-background: var(--mantle) !important;
+        /* select messages fixes */
+        --panel-background: var(--mantle) !important;
+        --panel-background-rgb: var(--mantle-rgb) !important;
         /* quoted message in compose */
         --popup-panel-background: var(--surface0) !important; /* use Surface 0 for contrast, other colors don't pass AAA */
         /* mention list item background */
