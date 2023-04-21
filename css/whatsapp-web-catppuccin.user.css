@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Web Catppuccin
 @namespace      github.com/FrancoRav/whatsapp-web
-@version        0.1.35
+@version        0.1.36
 @description    Soothing pastel theme for WhatsApp Web.
 @author         francorav
 @updateURL      https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css
@@ -507,6 +507,12 @@
         --panel-input-background: var(--surface0) !important;
         --sticker-button-background: var(--surface1) !important;
         --active-tab-marker: var(--accent) !important;
+
+        /* REACTIONS */
+        --reactions-panel-background-color: var(--surface0) !important;
+        --reactions-tray-background: var(--surface0) !important;
+        --reactions-details-background: var(--surface0) !important;
+        --svg-gray-button: var(--surface0) !important;
 
         /* Forward message popup */
         --panel-background-colored-deeper: var(--crust) !important;
