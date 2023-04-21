@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Web Catppuccin
 @namespace      github.com/FrancoRav/whatsapp-web
-@version        0.1.27
+@version        0.1.28
 @description    Soothing pastel theme for WhatsApp Web.
 @author         francorav
 @updateURL      https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css
@@ -586,6 +586,7 @@
 
         /* dropdown menus */
         --dropdown-background: var(--surface0) !important;
+        --dropdown-background-hover: var(--base) !important;
 
         /* OTHER SECTIONS */
 
