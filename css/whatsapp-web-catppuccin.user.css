@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WhatsApp Web Catppuccin
 @namespace      github.com/FrancoRav/whatsapp-web
-@version        0.1.31
+@version        0.1.32
 @description    Soothing pastel theme for WhatsApp Web.
 @author         francorav
 @updateURL      https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css
@@ -482,6 +482,8 @@
         --photopicker-overlay-background-rgb: var(--base-rgb) !important;
         --media-viewer-background-rgb: var(--base-rgb) !important;
         --drawer-background-deep: var(--crust) !important;
+        /* group info read more */
+        --input-button-more: var(--rosewater) !important;
         /* Group info thumbnails border */
         --chat-info-drawer-thumb-background: var(--surface2) !important;
         /* Group admin badge background */
