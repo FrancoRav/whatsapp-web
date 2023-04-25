@@ -371,6 +371,10 @@
         /* background for quoted incoming and outgoing messages */
         --outgoing-background-deeper: var(--crust) !important;
         --incoming-background-deeper: var(--mantle) !important;
+
+        /* SEARCH IN CHAT HIGHLIGHT */
+        --highlight: var(--teal) !important;
+
         /* quote colors */
         .bg-color-1 {
             background-color: var(--green) !important;
