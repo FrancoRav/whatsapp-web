@@ -41,6 +41,7 @@
 2. Download the theme from [here](https://raw.githubusercontent.com/FrancoRav/whatsapp-web/main/css/whatsapp-web-catppuccin.user.css).
 3. Set the accent color and flavor from Stylus userstyle settings according to your preferences.
 4. Install the theme.
+5. In WhatsApp Web, go to the Menu icon on the top left, Settings, Theme, choose Dark and click Ok.
 
 ## 💝 Thanks to
 
