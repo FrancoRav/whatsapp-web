@@ -614,7 +614,7 @@
 
         /* dropdown menus */
         --dropdown-background: var(--surface0) !important;
-        --dropdown-background-hover: var(--base) !important;
+        --dropdown-background-hover: var(--surface1) !important;
 
         /* OTHER SECTIONS */
 
