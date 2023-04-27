@@ -30,7 +30,7 @@
     "Frappe",
     "Macchiato",
     "Mocha",
-    "Espresso"
+    "Americano"
 ]
 ==/UserStyle== */
 @-moz-document domain("web.whatsapp.com") {
@@ -179,7 +179,7 @@
             --surface1Transparent: #45475abd;
             --mist: #11111bbd;
         }
-        else if stylusFlavor=="Espresso" {
+        else if stylusFlavor=="Americano" {
             --rosewater: #f5e0dc;
             --flamingo: #f2cdcd;
             --pink: #f5c2e7;
