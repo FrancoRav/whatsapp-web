@@ -329,6 +329,7 @@
         --background-default-hover: var(--surface0) !important;
         /* unread chats filter */
         --icon-high-emphasis: var(--green) !important;
+        .p7idzaix { color: var(--crust) !important; }
         /* voice message playing */
         --ptt-ooc-background: var(--mantle) !important;
 
