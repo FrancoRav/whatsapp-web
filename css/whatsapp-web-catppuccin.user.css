@@ -369,7 +369,7 @@
         /* quoted messages */
         --quoted-message-text: var(--text) !important;
         /* background for quoted incoming and outgoing messages */
-        --outgoing-background-deeper: var(--crust) !important;
+        --outgoing-background-deeper: var(--surface1) !important;
         --incoming-background-deeper: var(--mantle) !important;
 
         /* SEARCH IN CHAT HIGHLIGHT */
