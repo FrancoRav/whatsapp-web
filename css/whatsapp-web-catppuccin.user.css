@@ -631,6 +631,8 @@
         /* buttons such as create community */
         --button-primary-background: var(--accent) !important;
         --button-primary-background-hover: var(--green) !important;
+        /* keyboard shortcuts background */
+        --panel-background-lighter: var(--mantle) !important;
     }
 
     /* Start page drawing */
