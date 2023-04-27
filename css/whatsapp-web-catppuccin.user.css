@@ -358,8 +358,8 @@
         /* meta data for documents */
         --document-meta: var(--subtext1) !important;
         /* mentions, links and link previews */
-        --mention-at-symbol: var(--rosewater) !important;
-        --link: var(--rosewater) !important;
+        --mention-at-symbol: var(--sapphire) !important;
+        --link: var(--sapphire) !important;
         --link-preview: var(--text) !important;
         --link-preview-lighter: var(--subtext1) !important;
         --link-preview-light: var(--subtext0) !important;
@@ -492,7 +492,7 @@
         --media-viewer-background-rgb: var(--base-rgb) !important;
         --drawer-background-deep: var(--crust) !important;
         /* group info read more */
-        --input-button-more: var(--rosewater) !important;
+        --input-button-more: var(--sapphire) !important;
         /* Group info thumbnails border */
         --chat-info-drawer-thumb-background: var(--surface2) !important;
         /* Group admin badge background */
