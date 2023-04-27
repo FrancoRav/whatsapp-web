@@ -338,7 +338,7 @@
         --conversation-panel-background: var(--mantle) !important;
         /* MESSAGES */
         /* background for incoming and outgoing messages */
-        --incoming-background: var(--crust) !important;
+        --incoming-background: var(--surface1) !important;
         --outgoing-background: var(--surface0) !important;
         /* read double tick */
         --icon-ack: var(--blue) !important;
@@ -370,7 +370,7 @@
         --quoted-message-text: var(--text) !important;
         /* background for quoted incoming and outgoing messages */
         --outgoing-background-deeper: var(--surface1) !important;
-        --incoming-background-deeper: var(--mantle) !important;
+        --incoming-background-deeper: var(--surface2) !important;
 
         /* SEARCH IN CHAT HIGHLIGHT */
         --highlight: var(--teal) !important;
