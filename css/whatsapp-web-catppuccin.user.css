@@ -502,6 +502,11 @@
         --chat-marker: var(--subtext0) !important;
         /* Media gallery */
         --drawer-gallery-background: var(--crust) !important;
+        /* mute toggle */
+        --switch-button-checked-color: var(--accent) !important;
+        --switch-track-checked-color: var(--surface2) !important;
+        --switch-track-color: var(--surface2) !important;
+        --switch-button-color: var(--overlay1) !important;
 
         /* danger, block, exit and report buttons */
         --danger: var(--red) !important;
