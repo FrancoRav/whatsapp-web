@@ -503,6 +503,9 @@
         /* Media gallery */
         --drawer-gallery-background: var(--crust) !important;
 
+        /* danger, block, exit and report buttons */
+        --danger: var(--red) !important;
+
         /* group added by someone not in contacts */
         --button-plain-background: var(--surface0) !important;
         --button-plain-background-hover: var(--surface1) !important;
