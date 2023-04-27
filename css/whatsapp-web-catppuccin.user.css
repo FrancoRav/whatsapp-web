@@ -544,7 +544,7 @@
         /* select messages fixes */
         --panel-background: var(--mantle) !important;
         --panel-background-rgb: var(--mantle-rgb) !important;
-        --checkbox-background: var(--green) !important;
+        --checkbox-background: var(--accent) !important;
         /* quoted message in compose */
         --popup-panel-background: var(--surface0) !important; /* use Surface 0 for contrast, other colors don't pass AAA */
         /* mention list item background */
