@@ -325,8 +325,8 @@
         /* last message in selected chat */
         --secondary-stronger: var(--subtext1) !important;
         /* background for active and hover chats in chat list */
-        --background-default-active: var(--crust) !important;
-        --background-default-hover: var(--mantle) !important;
+        --background-default-active: var(--surface1) !important;
+        --background-default-hover: var(--surface0) !important;
         /* unread chats filter */
         --icon-high-emphasis: var(--green) !important;
         /* voice message playing */
