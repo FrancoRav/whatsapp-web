@@ -64,6 +64,7 @@
             --crust: #dce0e8;
 
             /* non-standard colors */
+            --surface0-rgb: 204, 208, 218;
             --mantle-rgb: 230, 233, 239;
             --mantle-backdrop: rgba(220, 224, 232, 0.85);
             --text-rgb: 76, 79, 105;
@@ -100,6 +101,7 @@
             --crust: #232634;
 
             /* non-standard colors */
+            --surface0-rgb: 65, 69, 89;
             --mantle-rgb: 41, 44, 60;
             --mantle-backdrop: rgba(41, 44, 60, 0.85);
             --text-rgb: 198, 208, 245;
@@ -136,6 +138,7 @@
             --crust: #181926;
 
             /* non-standard colors */
+            --surface0-rgb: 54, 58, 79;
             --mantle-rgb: 30, 32, 48;
             --mantle-backdrop: rgba(30, 32, 48, 0.85);
             --text-rgb: 202, 211, 245;
@@ -172,6 +175,7 @@
             --crust: #11111b;
 
             /* non-standard colors */
+            --surface0-rgb: 49, 50, 68;
             --mantle-rgb: 24, 24, 37;
             --mantle-backdrop: rgba(24, 24, 37, 0.85);
             --text-rgb: 205, 214, 244;
@@ -208,6 +212,7 @@
             --crust: #000000;
 
             /* non-standard colors */
+            --surface0-rgb: 49, 50, 68;
             --mantle-rgb: 1, 1, 1;
             --mantle-backdrop: rgba(1, 1, 1, 0.85);
             --text-rgb: 205, 214, 244;
@@ -339,7 +344,7 @@
         --conversation-panel-background: var(--mantle) !important;
         /* MESSAGES */
         /* background for incoming and outgoing messages */
-        --incoming-background: var(--surface1) !important;
+        --incoming-background: var(--base) !important;
         --outgoing-background: var(--surface0) !important;
         /* read double tick */
         --icon-ack: var(--blue) !important;
@@ -365,13 +370,14 @@
         --link-preview-lighter: var(--subtext1) !important;
         --link-preview-light: var(--subtext0) !important;
         /* arrow icon in messages */
-        --incoming-background-rgb: #ff0000ff !important;
+        --incoming-background-rgb: var(--base-rgb) !important;
+        --outgoing-background-rgb: var(--surface0-rgb) !important;
         /* QUOTED MESSAGES */
         /* quoted messages */
         --quoted-message-text: var(--text) !important;
         /* background for quoted incoming and outgoing messages */
         --outgoing-background-deeper: var(--surface1) !important;
-        --incoming-background-deeper: var(--surface2) !important;
+        --incoming-background-deeper: var(--surface0) !important;
 
         /* SEARCH IN CHAT HIGHLIGHT */
         --highlight: var(--teal) !important;
