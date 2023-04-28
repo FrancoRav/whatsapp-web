@@ -638,7 +638,7 @@
         --drawer-section-background: var(--base) !important;
         /* new chat icons */
         --round-icon-background: var(--green) !important;
-        --inverse: var(--subtext1) !important;
+        --inverse: var(--text) !important;
         /* title and icon for drawers */
         --drawer-header-title: var(--text) !important;
         /* buttons such as create community */
