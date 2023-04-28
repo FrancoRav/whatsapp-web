@@ -263,7 +263,6 @@
         else if stylusAccent=="Lavender" {
             --accent: var(--lavender);
         }
-        --accent-darker: darken(var(--accent), 10%);
     }
 
     .dark {
@@ -643,7 +642,7 @@
         --drawer-header-title: var(--text) !important;
         /* buttons such as create community */
         --button-primary-background: var(--accent) !important;
-        --button-primary-background-hover: var(--accent-darker) !important;
+        --button-primary-background-hover: var(--green) !important;
         /* keyboard shortcuts background */
         --panel-background-lighter: var(--mantle) !important;
     }
